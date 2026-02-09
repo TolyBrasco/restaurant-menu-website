@@ -3,8 +3,8 @@ header("Content-Type: application/json");
 
 
 // 🔐 Telegram στοιχεία
-$botToken = "8591781143:AAHW7Z9uz6fuQtzN7VgqqyO2y-WNnh7Dscg";
-$chatId   = "5660210769";
+$botToken = "xxx";
+$chatId   = "xxx";
 
 // 📥 Δεδομένα από JS
 $data = json_decode(file_get_contents("php://input"), true);
@@ -99,3 +99,4 @@ if ($result === false || $httpCode !== 200) {
 }
 
 echo json_encode(["ok" => true]);
+
