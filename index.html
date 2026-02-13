@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>ΨΗΣΤΑΡΙΑ ΚΑΡΑΘΑΝΑΣ</title>
+</head>
+<body>
+    <header><section>
+        <div class="arxiki"><h1>MENU</h1>
+        <img src="KARATHANAS.jpg" alt="ΨΗΣΤΑΡΙΑ ΚΑΡΑΘΑΝΑΣ">
+        <h3>παράδοση και ποιότητα <br>απο το 1961 μέχρι σήμερα...</h3>
+        </div>
+            <div id="sideMenu" class="menu">
+                <ul>
+                    <li><a href="#A">ΟΡΕΚΤΙΚΑ</a></li>
+                    <li><a href="#B">ΣΑΛΑΤΕΣ</a></li>
+                    <li><a href="#C">ΤΗΓΑΝΙΕΣ</a></li>
+                    <li><a href="#D">ΣΧΑΡΕΣ</a></li>
+                    <li><a href="#E">ΚΟΠΕΣ ΜΟΣΧΑΡΙ</a></li>
+                    <li><a href="#F">ΣΟΥΒΛΕΣ</a></li>
+                    <li><a href="#G">ΠΟΙΚΙΛΙΕΣ</a></li>
+                    <li><a href="#H">ΑΝΑΨΥΚΤΙΚΑ</a></li>
+                    <li><a href="#I">ΜΠΥΡΕΣ</a></li>
+                    <li><a href="#J">ΤΣΙΠΟΥΡΟ</a></li>
+                    <li><a href="#K">ΚΡΑΣΙΑ ΦΙΑΛΗ</a></li>
+                    <li><a href="#L">ΧΥΜΑ ΚΡΑΣΙ</a></li>
+                    <li><a href="#M">ΡΕΤΣΙΝΕΣ</a></li>
+                    <li><a href="#N">ΠΟΤΑ</a></li>
+                </ul>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="A">
+            <div>
+                <h2>ΟΡΕΚΤΙΚΑ-STARTERS</h2>
+                <ul class="orektika">
+                    <li>Φρέσκες πατάτες τηγανιτές (με κεφαλοτύρι ή χωρίς) <br>Fresh French fries<span class="timi">4,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Φρέσκες πατάτες τηγανιτές" data-price="4">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+  </div></li>
+                    <li>Μπουγιουρντί (με καυτερό η χωρίς) <br>Feta cheese in a pan with tomatoes<span class="timi">6,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Μπουγιουρντί" data-price="6">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+  </div></li>
+                    <li>Μελιτζάνα γεμιστή (φέτα,ντομάτα,κεφαλοτύρι,σκόρδο,κρέμα βαλσάμικο) <br>Stuffed eggplant (feta cheese, tomato, headcheese, garlic, balsamic cream) <span class="timi">7,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Μελιτζάνα γεμιστή" data-price="7">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+  </div></li>
+                    <li>Σαγανάκι λουκάνικο <br>Saganaki with Sausage <span class="timi">6,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Σαγανάκι λουκάνικο" data-price="6">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+  </div></li>
+                    <li>Σαγανάκι κεφαλοτύρι <br>Saganaki cheese <span class="timi">4,50 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Σαγανάκι κεφαλοτύρι" data-price="4.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+  </div></li>
+                    <li>Μανιτάρια ψητά <br>Grilled mashrooms <span class="timi">5,50 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Μανιτάρια ψητά" data-price="5.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+  </div></li>
+                    <li>Κολοκυθάκια (τηγανιτά ή ψητά) <br>Zucchini<span class="timi">6,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Κολοκυθάκια" data-price="6">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+  </div></li>
+                    <li>Φέτα λαδορίγανη <br>Feta cheese<span class="timi">4,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Φέτα λαδορίγανη" data-price="4">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+  </div></li>
+                    <li>Φέτα ψητή ή τηγανιτή <br>Grilled feta cheese<span class="timi">5,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Φέτα ψητή ή τηγανιτή" data-price="5">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+  </div></li>
+                    <li>Πιπεριές γλυκές ψητές ή τηγανιτές <br>Roasted sweet peppers<span class="timi">5,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Πιπεριές γλυκές" data-price="5">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+  </div></li>
+                    <li>Καυτερή πιπεριά <br>Chili pepper<span class="timi">2,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Καυτερή πιπεριά" data-price="2">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+  </div></li>
+                    <li>Τζατζίκι χειροποίητο <br>Tzatziki<span class="timi">3,50 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Τζατζίκι χειροποίητο" data-price="3.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+  </div></li>
+                    <li>Τυροκαυτερή χειροποίητη <br>Spicy Feta Dip<span class="timi">3,50 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Τυροκαυτερή χειροποίητη" data-price="3.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+  </div></li>
+                </ul>
+            </div>
+        </section>
+        <section id="B">
+            <div><h2>ΣΑΛΑΤΕΣ-SALADS</h2>
+                <ul class="salates">
+                    <li>Αγγουροντομάτα <br>Greek salad without feta  <span class="timi">6,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Αγγουροντομάτα" data-price="6">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+  </div></li>
+                    <li>Χωριάτικη <br>Greek salad with feta<span class="timi">9,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Χωριάτικη" data-price="9">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+  </div></li>
+                    <li>Πικάντικη-Πολίτικη <br>Cabbage, carrot, celery, parsley, pepper<span class="timi">6,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Πικάντικη-Πολίτικη" data-price="6">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+  </div></li>
+                    <li>Λάχανο <br>Cabbage<span class="timi">5,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Λάχανο" data-price="6">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+  </div></li>
+                    <li>Μαρούλι με φρέσκο κρεμμυδάκι <br>Lettuce with fresh onion<br><span class="timi">5,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Μαρούλι με φρέσκο κρεμμυδάκι" data-price="5">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+  </div></li>
+                    <li>Μαρούλι με κρουτόν καλαμπόκι κεφαλοτύρι σώς και κρέμα βαλσάμικο <br>Lettuce with croutons, corn, cheese, sauce, balsamic cream<span class="timi">6,50 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Μαρούλι με κρουτόν καλαμπόκι κεφαλοτύρι σώς και κρέμα βαλσάμικο" data-price="6.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+  </div></li>
+                    <li>Παντζάρι(σκόρδο και σώς γιαούρτι) <br>Beetroot (garlic and yogurt sauce)<span class="timi">6,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Παντζάρι(σκόρδο και σώς γιαούρτι)" data-price="6">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+  </div></li>
+                    <li>Ντάκος(παξιμάδι φέτα ντομάτα κρουτόν ελιά) <br>Dakos (rusk, feta cheese, tomato, croutons, olives)<span class="timi">7,50 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Ντάκος(παξιμάδι φέτα ντομάτα κρουτόν ελιά)" data-price="7.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+  </div></li>
+                    <li>Βραστή σαλάτα (χόρτα ή μπρόκολο) <br>greens or broccoli<span class="timi">6,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Βραστή σαλάτα (χόρτα ή μπρόκολο)" data-price="6">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+  </div></li>
+                </ul>
+            </div>
+        </section>
+        <section id="C">
+            <div><h2>ΤΗΓΑΝΙΕΣ-FRYING PANS</h2>
+                <ul class="tiganies">
+                    <li>Χοιρινή τηγανιά λεμονάτη <br>Fried lemon Pork<span class="timi">9,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Χοιρινή τηγανιά λεμονάτη" data-price="9">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Χοιρινή τηγανιά με καραμελωμένο κρεμμυδάκι και πιπεριές <br>Fried Pork with Caramelized onions and peppers<span class="timi">10,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Χοιρινή τηγανιά με καραμελωμένο κρεμμυδάκι και πιπεριές" data-price="10">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Τηγανιά κοτόπουλο <br>Fried Chicken<span class="timi">10,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Τηγανιά κοτόπουλο" data-price="10">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Τηγανιά κοτόπουλο με μανητάρια και πιπεριές <br>Fried Chicken with Mashrooms and peppers<span class="timi">11,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Τηγανιά κοτόπουλο με μανητάρια και πιπεριές" data-price="11">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Τηγανιά λουκάνικο χωριάτικο <br>Fried Sausages<span class="timi">9,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Τηγανιά λουκάνικο χωριάτικο" data-price="9">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Ανάμεικτη τηγανιά με χοιρινό και λουκάνικο χωριάτικο <br>Mix Fried Pork and Sausages<span class="timi">10,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Ανάμεικτη τηγανιά με χοιρινό και λουκάνικο χωριάτικο" data-price="10">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                </ul>
+            </div>
+        </section>
+        <section id="D">
+            <div><h2>ΣΧΑΡΕΣ-GRILL</h2>
+                <p class="tem">Τιμή τεμαχίου / Τιμή μερίδας</p>
+                <p class="tem">Price per piece / Portion price</p>
+               <ul class="sxares">
+                <li>Σουβλάκι χοιρινό <br>Greek Souvlaki Pork<span class="timi">2,00 &euro; / 7,50 &euro;</span><div class="controls1">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Σουβλάκι χοιρινό τεμάχιο" data-price="2">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Σουβλάκι χοιρινό" data-price="7.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                <li>Σουβλάκι κοτόπουλο <br>Greek Souvlaki Chicken<span class="timi">2,50 &euro; / 8,00 &euro;</span><div class="controls1">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Σουβλάκι κοτόπουλο τεμάχιο" data-price="2.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Σουβλάκι κοτόπουλο" data-price="8">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                <li>Φιλέτο κοτόπουλο <br>Chicken Filet<span class="timi">4,00 &euro; / 7,00 &euro;</span><div class="controls1">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Φιλέτο κοτόπουλο τεμάχιο" data-price="4">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Φιλέτο κοτόπουλο" data-price="7">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                <li>Πανσέτα-Παϊδάκι χοιρινό <br>Pork Pancetta<span class="timi">2,00 &euro; / 7,50 &euro;</span><div class="controls1">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Πανσέτα-Παϊδάκι χοιρινό τεμάχιο" data-price="2">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Πανσέτα-Παϊδάκι χοιρινό" data-price="7.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                <li>Κοψίδια-Μπριζολάκια <br>Pork Stake without bone<span class="timi">2,00 &euro; / 7,50 &euro;</span><div class="controls1">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Κοψίδια-Μπριζολάκια τεμάχιο" data-price="2">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Κοψίδια-Μπριζολάκια" data-price="7.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                <li>Λουκάνικο χωριάτικο <br>Greek Sausage<span class="timi">2,00 &euro; / 7,50 &euro;</span><div class="controls1">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Λουκάνικο χωριάτικο τεμάχιο" data-price="2">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Λουκάνικο χωριάτικο" data-price="7.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                <li>Λουκάνικο πεπερόνε <br>Peperone Sausage<span class="timi">2,00 &euro; / 7,50 &euro;</span><div class="controls1">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Λουκάνικο πεπερόνε τεμάχιο" data-price="2">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Λουκάνικο πεπερόνε" data-price="7.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                <li>Μπιφτέκι 80% μοσχαρίσιο <br>Meatballs 80% Beef 20%Pork<br><span class="timi">2,00 &euro; / 7,50 &euro;</span><div class="controls1">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Μπιφτέκι 80% μοσχαρίσιο τεμάχιο" data-price="2">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Μπιφτέκι 80% μοσχαρίσιο" data-price="7.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                <li>Μπριζόλα χοιρινή <br>Pork Stake<span class="timi">4,50 &euro; / 7,00 &euro;</span><div class="controls1">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Μπριζόλα χοιρινή τεμάχιο" data-price="4.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Μπριζόλα χοιρινή" data-price="7">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                <li>Ψαρονέφρι χοιρινό  <br>Pork Filet mignon<span class="timi">    --   /  8,50 &euro;</span><div class="controls1">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Ψαρονέφρι χοιρινό" data-price="8.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                <li>Αρνίσια παϊδάκια (μισό κιλό 15,00&euro;) <br>Lamp Ribs<span class="timi">30,00 &euro; /Κιλό</span><div class="controls1">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Αρνίσια παϊδάκια (μισό κιλό)" data-price="15">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+    <li>Πρόβεια παϊδάκια (μισό κιλό 15,00&euro;) <br>Sheep Ribs<span class="timi">30,00 &euro; /Κιλό</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Πρόβεια παϊδάκια (μισό κιλό)" data-price="15">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+               </ul>
+            </div>
+        </section>
+        <section id="E">
+            <div>
+                <h2>ΚΟΠΕΣ ΜΟΣΧΑΡΙ-BEEF</h2>
+                <ul class="mosxari">
+                    <li>Ελληνική μοσχαρίσια μπριζόλα <br>Greek Beef Stake<span class="timi">16,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Ελληνική μοσχαρίσια μπριζόλα" data-price="16">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Ελληνικό ribeye <br>Greek Beef ribeye<span class="timi">18,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Ελληνικό ribeye" data-price="18">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                </ul>
+            </div>
+        </section>
+        <section id="F">
+            <div>
+                <h2>ΣΟΥΒΛΕΣ-SPIT ROAST</h2>
+                <p class="tem">Τιμή μερίδας / Τιμή κιλού</p>
+                <p class="tem">Portion price / Price per kilo</p>
+                <ul class="souvles">
+                    <li>Κοντοσούβλι χοιρινό(κεμπάπ) (μισό κιλό 10,00&euro;)<br>Spit roast Pork<span class="timi">7,50 &euro; / 20,00 &euro;</span><div class="controls1">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Κοντοσούβλι χοιρινό(κεμπάπ) μερίδα" data-price="7.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Κοντοσούβλι χοιρινό(κεμπάπ)" data-price="10">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Κοντοσούβλι κοτόπουλο (μισό κιλό 10,00&euro;)<br>Spit roast Chicken<span class="timi">7,50 &euro; / 20,00 &euro;</span><div class="controls1">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Κοντοσούβλι κοτόπουλο μερίδα" data-price="7.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Κοντοσούβλι κοτόπουλο" data-price="10">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Πανσέτα σούβλας (μισό κιλό 10,00&euro;)<br>Spit roast Pork Pancetta<span class="timi">7,50 &euro; / 20,00 &euro;</span><div class="controls1">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Πανσέτα σούβλας μερίδα" data-price="7.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Πανσέτα σούβλας" data-price="10">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Κοκορέτσι χειροποίητο (μισό κιλό 15,00&euro;)<br>Lamb Livers wrapped in intestines<span class="timi">12,00 &euro; / 30,00 &euro;</span><div class="controls1">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Κοκορέτσι χειροποίητο μερίδα" data-price="12">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Κοκορέτσι χειροποίητο" data-price="15">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Αρνάκι ή Κατσικάκι (μισό κιλό 15,00&euro;)<br>Lamp<span class="timi">12,00 &euro; / 30,00 &euro;</span><div class="controls1">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Αρνάκι ή Κατσικάκι μερίδα" data-price="12">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Αρνάκι ή Κατσικάκι" data-price="15">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Ζυγούρι ή Πρόβειο στην σούβλα ή στην γάστρα (μισό κιλό 15,00&euro;)<br>Sheep<span class="timi">12,00 &euro; / 30,00 &euro;</span><div class="controls1">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Ζυγούρι ή Πρόβειο στην σούβλα ή στην γάστρα μερίδα" data-price="12">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Ζυγούρι ή Πρόβειο στην σούβλα ή στην γάστρα" data-price="15">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                </ul>
+            </div>
+        </section>
+        <section id="G">
+            <div>
+                <h2>ΠΟΙΚΙΛΙΕΣ-MIX GRILL</h2>
+                <ul class="poikilies">
+                   <li><h3>Mix grill mini <span class="timi"> 18,00 &euro;</span></h3>(2 πανσέτες,2 σουβλάκια,2 λουκάνικα, <br>2 Μπιφτέκια,πίτες,πατάτες,<br>αλοιφή,κρεμμύδι) <br>(2 Pancetta,2 souvlaki,2 sausages,2 meatballs,pita bread,potatoes,sauce tzatziki,onions)<div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Mix grill mini" data-price="18">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                   <li><h3>Mix grill major <span class="timi"> 24,00 &euro;</span></h3>(2 πανσέτες,2 σουβλάκια,2 λουκάνικα,2 μπριζόλες, <br>2 Μπιφτέκια,πίτες,πατάτες,<br>αλοιφή,κρεμμύδι) <br>(2 Pancetta,2 souvlaki,2 sausages,2 stakes,2 meatballs,pita bread,potatoes,sauce tzatziki,onions)<div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Mix grill major" data-price="24">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                   <li><h3>Mix grill grand <span class="timi"> 34,00 &euro;</span></h3>(3 πανσέτες,3 σουβλάκια,3 λουκάνικα,3 μπριζόλες, <br>3 Μπιφτέκια,πίτες,πατάτες,<br>2 διαφορετικές αλοιφές,κρεμμύδι) <br>(3 Pancetta,3 souvlaki,3 sausages,3 stakes,3 meatballs,pita bread,potatoes,2 sauce tzatziki and feta sauce,onions)<div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Mix grill grand" data-price="34">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                </ul>
+            </div>
+        </section>
+        <section id="H">
+            <div>
+                <h2>ΑΝΑΨΥΚΤΙΚΑ-SOFT DRINKS</h2>
+                <ul class="anapsiktika">
+                    <li>Pepsi cola <span class="timi">1,50 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Pepsi cola" data-price="1.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Coca cola zero <span class="timi">1,50 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Coca cola zero" data-price="1.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Ηβη πορτοκαλάδα <br>Orangeade<span class="timi">1,50 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Ηβη πορτοκαλάδα" data-price="1.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Ηβη λεμονάδα <br>Lemonade<span class="timi">1,50 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Ηβη λεμονάδα" data-price="1.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>7up <span class="timi">1,50 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="7up" data-price="1.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Σουρωτή <br>Soda<span class="timi">1,50 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Σουρωτή" data-price="1.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Χυμός ανάμεικτος <br>Juice<span class="timi">2,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Χυμός ανάμεικτος" data-price="2">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                </ul>
+            </div>
+        </section>
+        <section id="I">
+            <div>
+                <h2>ΜΠΥΡΕΣ-BEER</h2>
+                <ul class="mpires">
+                    <li>Άλφα βαρέλι 500ml <br>Alfa Draft 500ml<span class="timi">4,50 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Άλφα βαρέλι 500ml" data-price="4.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Άλφα βαρέλι 400ml <br>Alfa Draft 400ml<span class="timi">4,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Άλφα βαρέλι 400ml" data-price="4">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Άλφα βαρέλι 300ml <br>Alfa Draft 300ml<span class="timi">3,50 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Άλφα βαρέλι 300ml" data-price="3.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Άλφα μπουκάλι 500ml <br>Alfa Bottle 500ml<span class="timi">3,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Άλφα μπουκάλι 500ml" data-price="3">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Amstel μπουκάλι 500ml <br>Bottle 500ml<span class="timi">3,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Amstel μπουκάλι 500ml" data-price="3">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Kaizer μπουκάλι 500ml <br>Bottle 500ml<span class="timi">3,50 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Kaizer μπουκάλι 500ml" data-price="3.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Amstel radler μπουκάλι 500ml <br>Bottle 500ml<span class="timi">3,50 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Amstel radler μπουκάλι 500ml" data-price="3.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Μπύρα χωρίς αλκοολ μπουκάλι 300ml <br>Alcohol free Alfa Bottle 300ml<span class="timi">3,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Μπύρα χωρίς αλκοολ μπουκάλι 300ml" data-price="3">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                </ul>
+            </div>
+        </section>
+        <section id="J">
+            <div>
+                <h2>ΤΣΙΠΟΥΡΟ-TSIPOURO</h2>
+                <ul class="tsipouro">
+                    <li>Εμφιαλωμένο τσίπουρο Τυρνάβου με γλυκάνισο 100ml<br>bottle 100ml Greek Tsipouro<span class="timi">3,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Εμφιαλωμένο τσίπουρο Τυρνάβου με γλυκάνισο" data-price="3">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Εμφιαλωμένο τσίπουρο Τυρνάβου χωρίς γλυκάνισο 100ml <br>bottle 100ml Greek Grapa<span class="timi">3,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Εμφιαλωμένο τσίπουρο Τυρνάβου χωρίς γλυκάνισο" data-price="3">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Χύμα παραγωγής μας με γλυκάνισο (ποτήρι) <br>Χύμα παραγωγής μας με γλυκάνισο (ποτήρι+μεζές)<span class="timi">1,50 &euro; / 4,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Χύμα παραγωγής μας με γλυκάνισο (ποτήρι)" data-price="1.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+<button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Χύμα παραγωγής μας με γλυκάνισο (ποτήρι+μεζές)" data-price="4">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Χύμα παραγωγής μας με γλυκάνισο (καραφάκι) <br>Χύμα παραγωγής μας με γλυκάνισο (καραφάκι+μεζές)<span class="timi">3,00 &euro; / 7,5 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Χύμα παραγωγής μας με γλυκάνισο (καραφάκι)" data-price="3">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+<button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Χύμα παραγωγής μας με γλυκάνισο (καραφάκι+μεζές)" data-price="7.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Χύμα παραγωγής μας χωρίς γλυκάνισο (ποτήρι) <br>Χύμα παραγωγής μας χωρίς γλυκάνισο (ποτήρι+μεζές)<span class="timi">1,50 &euro; / / 4,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Χύμα παραγωγής μας χωρίς γλυκάνισο (ποτήρι)" data-price="1.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+<button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Χύμα παραγωγής μας χωρίς γλυκάνισο (ποτήρι+μεζές)" data-price="4">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Χύμα παραγωγής μας χωρίς γλυκάνισο (καραφάκι) <br>Χύμα παραγωγής μας χωρίς γλυκάνισο (καραφάκι+μεζές)<span class="timi">3,00 &euro; / 7,5 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Χύμα παραγωγής μας χωρίς γλυκάνισο (καραφάκι)" data-price="3">0</span>
+    <button onclick="changeQty(this, 1)">+</button>
+<button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Χύμα παραγωγής μας χωρίς γλυκάνισο (καραφάκι+μεζές)" data-price="7.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+    
+    
+                </ul>
+            </div>
+        </section>
+        <section id="K">
+            <div>
+                <h2>ΚΡΑΣΙΑ ΦΙΑΛΗ-WINE BOTTLE</h2>
+                <ul class="krasifiali">
+                    <li>Οινόβιον λευκό ξηρό 750ml <br>Kourtis Winery White Dry Bottle 750ml<span class="timi">17,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Οινόβιον λευκό ξηρό 750ml" data-price="17">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <p class="pikil">Κτήμα Κούρτη (Grape variety Assyrtiko / Trebbiano / chardonnay)</p>
+                    <li>Νύχτα λευκό ξηρό 750ml <br>Kourtis Winery White Dry Bottle 750ml<span class="timi">21,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Νύχτα λευκό ξηρό 750ml" data-price="21">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <p class="pikil">Κτήμα Κούρτη (Grape variety Vidiano)</p>
+                    <li>Ινώ λευκό ξηρό 750ml <br>Kourtis Winery White Dry Bottle 750ml<span class="timi">20,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Ινώ λευκό ξηρό 750ml" data-price="20">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <p class="pikil">Κτήμα Κούρτη (Grape variety Trebbiano )</p>
+                    <li>Οινόβιον ερυθρό ξηρό 750ml <br>Kourtis Winery Red Dry Bottle 750ml<span class="timi">17,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Οινόβιον ερυθρό ξηρό 750ml" data-price="17">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <p class="pikil">Κτήμα Κούρτη (Grape variety Agiorgitiko)</p>
+                    <li>Όνειρος ερυθρό ξηρό 750ml <br>Kourtis Winery Red Dry Bottle 750ml<span class="timi">26,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Όνειρος ερυθρό ξηρό 750ml" data-price="26">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <p class="pikil">Κτήμα Κούρτη (Grape variety Syrah / Cabernet / Agiorgitiko / Xinomavro)</p>
+                    <li>Ξυνόμαυρο ερυθρό ξηρό 750ml <br>Kourtis Winery Red Dry Bottle 750ml<span class="timi">24,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Ξυνόμαυρο ερυθρό ξηρό 750ml" data-price="24">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <p class="pikil">Κτήμα Κούρτη (Grape variety Xinomavro)</p>
+                    <li>Ηώς ροζέ ημίξερο 750ml <br>Kourtis Winery Rose Semi-Dry Bottle 750ml<span class="timi">18,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Ηώς ροζέ ημίξερο 750ml" data-price="18">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <p class="pikil">Κτήμα Κούρτη (Grape variety Xinomavro / Syrah)</p>
+                </ul>
+            </div>
+        </section>
+        <section id="L">
+            <div>
+                <h2>ΧΥΜΑ ΚΡΑΣΙ-BULK WINE</h2>
+                <ul class="ximakrasi">
+                    <li>Λευκό ξηρό κτήμα Κούρτη 250ml <br>White Dry Wine Kourtis Winery 250ml<span class="timi">2,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Λευκό ξηρό κτήμα Κούρτη 250ml" data-price="2">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Λευκό ξηρό κτήμα Κούρτη 500ml <br>White Dry Wine Kourtis Winery 500ml<span class="timi">3,50 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Λευκό ξηρό κτήμα Κούρτη 500ml" data-price="3.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Λευκό ξηρό Νάουσα 250ml <br>White Dry Wine Naousa Winery 250ml<span class="timi">2,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Λευκό ξηρό Νάουσα 250ml" data-price="2">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Λευκό ξηρό Νάουσα 500ml <br>White Dry Wine Naousa Winery 500ml<span class="timi">3,50 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Λευκό ξηρό Νάουσα 500ml" data-price="3.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Ερυθρό ξηρό κτήμα Κούρτη 250ml <br>Red Dry Wine Kourtis Winery 250ml<span class="timi">2,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Ερυθρό ξηρό κτήμα Κούρτη 250ml" data-price="2">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Ερυθρό ξηρό κτήμα Κούρτη 500ml <br>Red Dry Wine Kourtis Winery 500ml<span class="timi">3,50 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Ερυθρό ξηρό κτήμα Κούρτη 500ml" data-price="3.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Ερυθρό Ημίγλυκο κτήμα Κούρτη 250ml <br>Red Semi-Dry Wine Kourtis Winery 250ml<span class="timi">2,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Ερυθρό Ημίγλυκο κτήμα Κούρτη 250ml" data-price="2">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Ερυθρό Ημίγλυκο κτήμα Κούρτη 500ml <br>Red Semi-Dry Wine Kourtis Winery 500ml<span class="timi">3,50 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Ερυθρό Ημίγλυκο κτήμα Κούρτη 500ml" data-price="3.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Ροζέ Ημίγλυκο κτήμα Κούρτη 250ml <br>Rose Semi-Dry Wine Kourtis Winery 250ml<span class="timi">2,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Ροζέ Ημίγλυκο κτήμα Κούρτη 250ml" data-price="2">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Ροζέ Ημίγλυκο κτήμα Κούρτη 500ml <br>Rose Semi-Dry Wine Kourtis Winery 500ml<span class="timi">3,50 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Ροζέ Ημίγλυκο κτήμα Κούρτη 500ml" data-price="3.5">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                </ul>
+            </div>
+        </section>
+        <section id="M">
+            <div>
+                <h2>ΡΕΤΣΙΝΕΣ-RETSINA</h2>
+                <ul class="retsines">
+                    <li>Τυρνάβου 500ml <span class="timi">3,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Τυρνάβου 500ml" data-price="3">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Μαλαματίνα 500ml <span class="timi">3,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Μαλαματίνα 500ml" data-price="3">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Γεωργιάδη 500ml <span class="timi">4,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Γεωργιάδη 500ml" data-price="4">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Ρετσινιά κτήμα Κούρτη 500ml <span class="timi">5,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Ρετσινιά κτήμα Κούρτη 500ml" data-price="5">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Βασιλική 500ml <span class="timi">5,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Βασιλική 500ml" data-price="5">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                </ul>
+            </div>
+</section>
+<section id="N">
+            <div>
+                <h2>ΠΟΤΑ-ALCOHOLIC DRINKS</h2>
+                <ul class="retsines">
+                    <li>Haig <span class="timi">6,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Heig" data-price="6">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Chivas Regal <span class="timi">7,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Chivas Regal" data-price="7">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Johnnie Walker Black Label <span class="timi">7,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Johnnie Walker Black Label" data-price="7">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Stolichnaya Vodka <span class="timi">6,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Stolichnaya Vodka" data-price="6">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Gordon's Gin <span class="timi">6,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Gordons Gin" data-price="6">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                    <li>Campari<span class="timi">6,00 &euro;</span><div class="controls">
+    <button onclick="changeQty(this, -1)">−</button>
+    <span class="qty" data-name="Campari" data-price="6">0</span>
+    <button onclick="changeQty(this, 1)">+</button></div></li>
+                </ul>
+            </div>
+</section>
+       <footer class="footer">
+        <div class="footer-social">
+        <h3 class="F">Βρείτε μας στο Facebook (Find us on Facebook) </h3><a href="https://www.facebook.com/profile.php?id=100066759031607" class=" social-btn facebook" target="_blank" rel="noopener noferrer">ΨΗΣΤΑΡΙΑ ΚΑΡΑΘΑΝΑΣ</a>
+        <h3 class="I">Βρείτε μας στο Instagram (Find us on Instagram) </h3><a href="https://www.instagram.com/psistaria_karathanas?igsh=NjFza2Fqb2IydXlm" class="social-btn instagram" target="_blank" rel="noopener noferrer">ΨΗΣΤΑΡΙΑ ΚΑΡΑΘΑΝΑΣ</a>
+        <h3 class="G">'Οταν φάτε και χορτάσετε παρακαλώ να μας κάνετε μια κριτική στην Google <br>(When you're done eating, leave us a review on Google)</h3><a href="https://www.google.com/search?sca_esv=9b5c493ee8186f6d&sxsrf=ANbL-n7onshxTn9alLIYdL6vGAq6HRFjOw:1768254397320&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOUxEsT0p3FGjgkhOERp6jxk126sbxdRnl9FX3f9OKHEa6ZmUtHurJ4nRPWR-NB_yPvDzlVf23_0cmBLQNsvVDhj7YXhR1hB2a4RiglunL32yGc8v2gVLjVfsJVk0f7FlMAlZOW4%3D&q=TRADITIONAL+GRILLHOUSE+KARATHANAS+Reviews&sa=X&ved=2ahUKEwj48uX5_IaSAxXO_rsIHZrrJTUQ0bkNegQILRAE&biw=1536&bih=730&dpr=1.25&aic=0"class="social-btn google" target="_blank" rel="noopener noferrer">ΨΗΣΤΑΡΙΑ ΚΑΡΑΘΑΝΑΣ</a>
+        </div>
+        <p class="footer-info">Ο καταναλωτής δεν έχει υποχρέωση να πληρώσει <br>εάν δεν λάβει το νόμιμο παραστατικό στοιχείο (απόδειξη - τιμολόγιο</p>
+       </footer>
+      <!-- CART BOX -->
+<section id="orderBox">
+  <h3>Η Παραγγελία σου-Your Οrder</h3>
+
+  <div id="orderItemsWrapper">
+    <div id="orderList" class="order-items">
+      Δεν έχεις επιλέξει προϊόντα
+    </div>
+  </div>
+  <div class="order-notes">
+  <label>📝 Σχόλια Παραγγελίας-Order Comments</label>
+  <textarea
+    id="orderNotes"
+    placeholder="π.χ. χωρίς αλάτι, καλά ψημένο..."
+    oninput="updateOrderUI()"
+  ></textarea>
+</div>
+
+  <div class="order-footer">
+    <p class="order-total">
+      Σύνολο: <span id="total">0</span>€
+    </p>
+     <button class="order-btn preview-btn" onclick="previewOrder()">
+    👁️ Έλεγχος Παραγγελίας-Check Order
+  </button>
+
+    <button onclick="sendOrder()" class="order-btn send-btn">
+      Αποστολή Παραγγελίας-Send Order
+    </button>
+    <div id="orderStatus" class="order-status"></div>
+
+  </div>
+</section>
+
+<!-- FLOATING ICON -->
+<div id="cartBubble" onclick="toggleCart()">
+  <span class="cart-icon">🍽️</span>
+  <span id="cartCount">0</span>
+</div>
+<!-- MENU BUTTON -->
+<div id="menuBubble" onclick="toggleMenu()">
+  ☰
+</div>
+<script src="java.js"></script>
+
+
+</body>
+</html>
